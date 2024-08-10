@@ -1,0 +1,240 @@
+.main_vakansii {
+  width: 1420px;
+  height: 1000px;
+  background-color: #5e419d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 15px 5px #d1d4d6;
+}
+.div_card {
+  margin: 50px 20px 20px 20px;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px 5px #d1d4d6;
+  width: 400px;
+  min-height: 200px;
+  max-height: 240px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  transition: 0.3s;
+  -moz-box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.8);
+  h1 {
+    font-size: 22px;
+    color: #5e419d;
+  }
+  button {
+    border: none;
+    width: 300px;
+    height: 35px;
+    background-color: #5e419d;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    a {
+      color: #fff;
+    }
+  }
+  button:hover {
+    background-color: #7e5ace;
+  }
+  button:nth-of-type(2) {
+    border: none;
+    height: 35px;
+    background-color: #a0c74f;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  button:nth-of-type(2):hover {
+    background-color: #add857;
+  }
+}
+.b24-form {
+  margin-top: -1700px;
+  transition: 0.3s;
+}
+.close_btn {
+  display: none;
+  position: absolute;
+  background-color: #dfdfdf;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 100px;
+  margin-left: 600px;
+  z-index: 100;
+  cursor: pointer;
+
+  .b24-form {
+    display: none;
+  }
+}
+.active {
+  display: block;
+
+  .b24-form {
+    display: block;
+  }
+}
+
+@media (max-width: 1410px) {
+  .main_vakansii {
+    width: 1200px;
+    height: 1400px;
+  }
+}
+
+@media (max-width: 1210px) {
+  .main_vakansii {
+    width: 1100px;
+    height: 1600px;
+  }
+}
+@media (max-width: 1100px) {
+  .main_vakansii {
+    width: 800px;
+    height: 2500px;
+  }
+}
+@media (max-width: 1020px) {
+  .main_vakansii {
+    flex-wrap: wrap;
+    width: 900px;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 940px) {
+  .main_vakansii {
+    justify-content: center;
+    height: 2200px;
+    width: 550px;
+
+    div {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+}
+@media (max-width: 640px) {
+  .main_vakansii {
+    height: 2300px;
+    width: 450px;
+
+    div {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+}
+@media (max-width: 460px) {
+  .div_card {
+    width: 300px;
+    button {
+      border: none;
+      width: 250px;
+      height: 35px;
+      background-color: #5e419d;
+      color: #fff;
+      border-radius: 30px;
+      margin-top: 20px;
+      cursor: pointer;
+      a {
+        color: #fff;
+      }
+    }
+    h1 {
+      font-size: 20px;
+      color: #5e419d;
+    }
+  }
+  .main_vakansii {
+    height: 2400px;
+    width: 350px;
+
+    div {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .div_card {
+    width: 300px;
+    button {
+      border: none;
+      width: 250px;
+      height: 35px;
+      background-color: #5e419d;
+      color: #fff;
+      border-radius: 30px;
+      margin-top: 20px;
+      cursor: pointer;
+      a {
+        color: #fff;
+      }
+    }
+    h1 {
+      font-size: 20px;
+      color: #5e419d;
+    }
+  }
+  .main_vakansii {
+    height: 2400px;
+    width: 350px;
+
+    div {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+}
+@media (max-width: 350px) {
+  .div_card {
+    width: 200px;
+    button {
+      font-size: 10px;
+      border: none;
+      width: 180px;
+      height: 35px;
+      background-color: #5e419d;
+      color: #fff;
+      border-radius: 30px;
+      margin-top: 20px;
+      cursor: pointer;
+      a {
+        color: #fff;
+      }
+    }
+    h1 {
+      font-size: 16px;
+      color: #5e419d;
+    }
+  }
+  .main_vakansii {
+    height: 2400px;
+    width: 250px;
+
+    div {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.navCards__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1230px;
+  margin: 0 auto;
+  gap: 30px;
+  padding: 50px 0;
+  justify-content: center;
+}
+
+.navBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,76 @@
+.TxtCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 330px;
+  width: 465px;
+  border-radius: 30px;
+  padding: 40px 40px;
+  box-shadow: 0px 5px 15px 5px #d1d4d6;
+  transition: 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.TxtCard:hover {
+  transform: scale(1.02);
+}
+
+.TxtCard_Title {
+  line-height: 1.31;
+  text-transform: uppercase;
+  color: #363636;
+  font-size: 32px;
+  margin-bottom: 10px;
+  width: 410px;
+}
+
+.TxtCard_Txt {
+  line-height: 1.33;
+  font-size: 18px;
+  width: 410px;
+}
+
+@media only screen and (max-width: 1340px) {
+  .TxtCard {
+    min-height: 0;
+    width: 330px;
+    height: 280px;
+    justify-content: center;
+    padding: 40px 30px;
+  }
+  .TxtCard_Txt {
+    line-height: 1.33;
+    font-size: 16px;
+    width: 280px;
+  }
+  .TxtCard_Title {
+    line-height: 1.31;
+    text-transform: uppercase;
+    color: #363636;
+    font-size: 26px;
+    margin-bottom: 10px;
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .TxtCard {
+    width: 530px;
+    min-height: 160px;
+    justify-content: center;
+  }
+  .TxtCard_Title {
+    line-height: 1.31;
+    text-transform: uppercase;
+    color: #363636;
+    font-size: 26px;
+    margin-bottom: 10px;
+    width: 470px;
+  }
+
+  .TxtCard_Txt {
+    line-height: 1.33;
+    font-size: 16px;
+    width: 470px;
+  }
+}

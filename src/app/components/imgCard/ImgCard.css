@@ -1,0 +1,38 @@
+.ImgCard {
+  border-radius: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s;
+  height: 100%;
+  width: 100%;
+}
+
+.ImgCard img {
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.ImgCard:hover {
+  transform: scale(1.02);
+}
+
+@media only screen and (max-width: 1340px) {
+  .ImgCard {
+    width: 500px;
+    height: 280px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .ImgCard img {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .ImgCard {
+    width: 530px;
+    height: 280px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}

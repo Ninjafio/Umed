@@ -1,0 +1,121 @@
+.AboutCard {
+    width: 396px;
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 20px 30px;
+    transition: 0.3s ease-in-out;
+    z-index: 30;
+
+    .AboutCard-txt {
+      font-weight: 500;
+    }
+  }
+  
+  .AboutCard img {
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    
+  }
+  
+  .AboutCard:hover {
+    transform: scale(1.02);
+  }
+  
+  @media only screen and (max-width: 1340px) {
+    .AboutCard {
+      width: 270px;
+      height: 120px;
+      font-size: 16px;
+    }
+    .AboutCard img {
+      height: 84px;
+    }
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .AboutCard {
+      width: 260px;
+      height: 120px;
+      font-size: 16px;
+    }
+    .AboutCard img {
+      height: 84px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 620px) {
+    .AboutCard {
+      width: 435px;
+      height: 120px;
+      font-size: 16px;
+    }
+    .AboutCard img {
+      height: 84px;
+      width: 84px;
+    }
+  }
+  @media only screen and (max-width: 460px) {
+    .AboutCard {
+      width: 400px;
+      height: 120px;
+      font-size: 16px;
+    }
+    .AboutCard img {
+      height: 84px;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    .AboutCard {
+      width: 370px;
+      height: 120px;
+      font-size: 16px;
+    }
+    .AboutCard img {
+      height: 84px;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    .AboutCard {
+      width: 350px;
+      height: 120px;
+      font-size: 16px;
+    }
+    .AboutCard img {
+      height: 84px;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    .AboutCard {
+      width: 300px;
+      height: 120px;
+      font-size: 16px;
+    }
+    .AboutCard img {
+      height: 84px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .AboutCard {
+      width: 270px;
+      height: 120px;
+      font-size: 16px;
+    }
+    .AboutCard img {
+      height: 84px;
+    }
+  }
