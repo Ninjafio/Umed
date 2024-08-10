@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Библиотеки:
+[`react-scroll`](https://www.npmjs.com/package/react-scroll),
+[`sass`](https://sass-lang.com/),
+[`swiper`](https://swiperjs.com/),
+
 ## Getting Started
 
 First, run the development server:
