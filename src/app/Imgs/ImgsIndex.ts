@@ -39,6 +39,8 @@ import CardsBlockImgLD from "./CardsBlockImgLD.png"
 import ProgressiveBlockImg from "./workFlowsImg.jpg"
 
 import VK from "./VkLink.png"
+import Gift_first from "./Gift_first.jpg"
+import Gift_sec from "./Gift_sec.jpg"
 
 export {
   ProgressiveBlockImg,
@@ -83,4 +85,6 @@ export {
   CardsBlockImgLD,
 
   VK,
+  Gift_first,
+  Gift_sec,
 };

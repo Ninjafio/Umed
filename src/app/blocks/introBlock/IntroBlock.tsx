@@ -5,12 +5,7 @@ import "./IntroBlock.scss";
 
 // импорт Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Pagination,
-  A11y,
-  Autoplay,
-  EffectFade,
-} from "swiper/modules";
+import { Pagination, A11y, Autoplay, EffectFade } from "swiper/modules";
 
 import { IntroBlockImg } from "../../Imgs/ImgsIndex";
 
@@ -32,7 +27,8 @@ const IntroBlock = () => {
           className="swiper-intro"
         >
           <SwiperSlide className="swiper__slide">
-            <Image alt="huh" src={IntroBlockImg} className="introBlock_img" />
+          <video loop muted autoPlay src={"/Banner.mp4"} style={{ width: "100%", height: "420px", borderRadius: "30px" }} className="swiper-intro__video" />
+          <video loop muted autoPlay src={"/Banner_mini.mp4"} style={{ width: "100%", height: "420px", borderRadius: "30px" }} className="swiper-intro__video_mini" />
           </SwiperSlide>
         </Swiper>
       </div>
