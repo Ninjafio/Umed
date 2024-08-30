@@ -27,8 +27,8 @@ const IntroBlock = () => {
           className="swiper-intro"
         >
           <SwiperSlide className="swiper__slide">
-          <video loop muted autoPlay src={"/Banner.mp4"} style={{ width: "100%", height: "420px", borderRadius: "30px" }} className="swiper-intro__video" />
-          <video loop muted autoPlay src={"/Banner_mini.mp4"} style={{ width: "100%", height: "420px", borderRadius: "30px" }} className="swiper-intro__video_mini" />
+          <video loop muted autoPlay src={"/Banner.mp4"} style={{ width: "100%", borderRadius: "30px" }} className="swiper-intro__video" />
+          <video loop muted autoPlay src={"/Banner_mini.mp4"} style={{ width: "100%", borderRadius: "30px" }} className="swiper-intro__video_mini" />
           </SwiperSlide>
         </Swiper>
       </div>

@@ -551,9 +551,9 @@ ul {
 
 .AboutBlock__video-txt-wrapper {
   margin-right: 130px;
-  max-width: 300px;
-  text-align: justify;
-  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
 }
 
 .flex {
@@ -610,20 +610,22 @@ ul {
   .AboutBlock__video-wrapper {
     flex-direction: column;
     gap: 50px;
-    width: 700px;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .AboutBlock__video-txt {
-    font-size: 18px;
-    width: 700px;
   }
   .AboutBlock__video-txt-wrapper {
-    margin-right: 500px;
-    width: 700px;
+    margin-right: 130px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .AboutBlock__video-txt {
+    font-size: 18px;
+    text-align: center;
+  }
+  .AboutBlock__video-txt-wrapper {
+    margin-right: 0;
   }
   .AboutBlock__video-wrapper .AboutBlock__video-title {
     text-align: center;

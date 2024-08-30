@@ -8,6 +8,11 @@
   font-size: 54px;
   font-weight: 600;
 }
+@media only screen and (max-width: 600px) {
+.WorkBlock__Title{
+  font-size: 30px;
+}
+}
 
 .WorkBlock__Txt {
   margin: 50px 0;
@@ -46,8 +51,8 @@
 }
 
 .CardBlock_videoSwiperBlock_title {
-  width: 1130px;
-  margin: 0 auto;
+  margin-top: 50px;
+ 
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -71,10 +76,11 @@
 }
 
 .CardsBlock__Title {
+  width: 100%;
   text-align: left;
-  width: 1130px;
   font-size: 32px;
   font-weight: 600;
+  max-width: 1150px;
 }
 
 .TxtCard_item {
@@ -199,7 +205,11 @@
     font-size: 16px;
     width: 380px;
   }
-
+   .CardsBlock__Title {
+    text-align: center;
+    margin-left: 0;
+    width: auto;
+  }
   .bigCard_footerTitle {
     font-size: 16px;
     width: 370px;
@@ -471,8 +481,6 @@
 @media only screen and (max-width: 520px) {
   .CardBlock_videoSwiperBlock_title {
     font-size: 24px;
-    
-  width: 500px;
   }
 
   .CardsBlock {

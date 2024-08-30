@@ -5,6 +5,9 @@ import fourthAboutImg from "./fourthAboutImg.png";
 import fifthAboutImg from "./fifthAboutImg.png";
 import sixthAboutImg from "./sixthAboutImg.png";
 
+import Corporate_presentsFirst from "./CorporatePresents.jpg"
+import Corporate_presentsSecond from "./CorporatePresents2.jpg"
+
 import MedSliderImgOne from "./MedSliderImgOne.png"
 import MedSliderImgTwo from "./MedSliderImgTwo.png"
 import MedSliderImgThree from "./MedSliderImgThree.png"
@@ -39,8 +42,6 @@ import CardsBlockImgLD from "./CardsBlockImgLD.png"
 import ProgressiveBlockImg from "./workFlowsImg.jpg"
 
 import VK from "./VkLink.png"
-import Gift_first from "./Gift_first.jpg"
-import Gift_sec from "./Gift_sec.jpg"
 
 export {
   ProgressiveBlockImg,
@@ -85,6 +86,4 @@ export {
   CardsBlockImgLD,
 
   VK,
-  Gift_first,
-  Gift_sec,
 };

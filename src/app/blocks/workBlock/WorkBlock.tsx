@@ -31,9 +31,7 @@ const WorkBlock = () => {
     <>
       <div className="WorkBlock">
         <h2 className="WorkBlock__Title">Мы гарантируем</h2>
-        <p className="WorkBlock__Txt">
-        Нам важно, чтобы каждый сотрудник ощущал уверенность в своем будущем. Мы заботимся о здоровье и безопасности нашего персонала, а новых сотрудников не только знакомим с командой, но и помогаем им адаптироваться в рабочей среде.
-        </p>
+        <p className="WorkBlock__Txt">Нам важно, чтобы каждый сотрудник ощущал уверенность в своем будущем. Мы заботимся о здоровье и безопасности нашего персонала, а новых сотрудников не только знакомим с командой, но и помогаем им адаптироваться в рабочей среде.</p>
         <div className="WorkBlockCard__wrapper">
           <WorkBlockCard titleChild={"белая \nзарплата"}>
             и социальные гарантии для всех сотрудников
@@ -47,10 +45,11 @@ const WorkBlock = () => {
         </div>
       </div>
 
+
+      <div className="CardBlock_videoSwiperBlock">
       <h2 className="CardBlock_videoSwiperBlock_title">
         Интервью с нашими преподавателями
       </h2>
-      <div className="CardBlock_videoSwiperBlock">
         <Swiper
           modules={[Navigation, Pagination, A11y, Autoplay, FreeMode, Thumbs]}
           navigation={{

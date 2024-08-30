@@ -101,8 +101,8 @@
 
 .swiper__slide {
   width: 100%;
-  height: 414px;
-  background-color: #5e419d;
+
+  
   color: #ffffff;
   display: flex;
   text-align: center;
@@ -152,6 +152,8 @@
 }
 
 @media only screen and (max-width: 1340px) {
+
+  
   .IntroBlock {
     display: flex;
     flex-direction: row;
@@ -162,6 +164,7 @@
   .IntroBlock_right_content{
     width: 1000px;
     margin-top: 80px;
+    margin-bottom: -100px;
   }
   .swiper__slide{
     width: 1000px;
@@ -177,7 +180,9 @@
     height: 360px;
     width: 1000px;
   }
- 
+  .swiper__slide video{
+    margin-bottom: -100px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .introBlock_img{
@@ -188,7 +193,9 @@
     height: 420px;
     width: 900px;
   }
-
+  .IntroBlock_right_content{
+    margin-bottom: -150px;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -218,6 +225,7 @@
   }
   .IntroBlock_right_content{
     width: 800px;
+    margin-bottom: -200px;
   }
   .swiper-intro{
     height: 420px;
@@ -251,6 +259,7 @@
   }
   .IntroBlock_right_content{
     width: 730px;
+    margin-bottom: -50px;
   }
   .swiper-intro{
     height: 420px;
@@ -274,6 +283,7 @@
   }
   .IntroBlock_right_content{
     width: 550px;
+    margin-bottom: -90px;
   }
   .swiper-intro{
     height: 420px;
@@ -317,6 +327,9 @@
     height: 420px;
     width: 550px;
   }
+  .IntroBlock_right_content{
+    margin-bottom: -150px;
+  }
 }
 
 @media only screen and (max-width: 580px) {
@@ -324,12 +337,18 @@
     height: 420px;
     width: 450px;
   }
+  .IntroBlock_right_content{
+    margin-bottom: -230px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   .swiper-intro{
     height: 420px;
     width: 350px;
+  }
+  .IntroBlock_right_content{
+    margin-bottom: -280px;
   }
 }
 
