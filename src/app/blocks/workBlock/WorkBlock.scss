@@ -73,6 +73,7 @@
 
 .ImgCard_item {
   height: 330px;
+  background-size: 100% 100%;
 }
 
 .CardsBlock__Title {
@@ -495,6 +496,7 @@
   }
   .ImgCard_item {
     width: 400px;
+    height: 200px;
   }
   .ImgCard {
     width: 400px;
@@ -613,7 +615,7 @@
 
 @media only screen and (max-width: 430px) {
   .CardsBlock__Title {
-    margin-top: 240px;
+    margin-top: 0px;
   }
 }
 
@@ -682,7 +684,11 @@
       1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
   }
 }
-
+@media only screen and (max-width: 400px) {
+  .CardsBlock__Title {
+    margin-top: 300px;
+  }
+}
 @media only screen and (max-width: 370px) {
   .CardsBlock {
     width: 390px;

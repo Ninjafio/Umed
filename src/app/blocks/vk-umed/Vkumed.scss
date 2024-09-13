@@ -118,3 +118,21 @@
     }
   }
 }
+@media (max-width: 320px) {
+  .vkumed {
+    align-items: center;
+    width: 280px;
+    height: 600px;
+    flex-direction: column-reverse;
+    .imag_vk_umed {
+      margin-top: 20px;
+    }
+    .text_vkumed {
+      margin-left: 0;
+      text-align: center;
+      width: 200px;
+      font-size: 16px;
+    }
+  }
+}
+

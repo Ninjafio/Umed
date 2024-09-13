@@ -1,4 +1,4 @@
-.ImgCard {
+.ImgCardddd {
   border-radius: 30px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
   transition: all 0.3s;
@@ -6,32 +6,57 @@
   width: 100%;
 }
 
-.ImgCard img {
+.ImgCardddd img {
   height: 100%;
   width: 100%;
   border-radius: 30px;
+  background-size: 100% 100%;
 }
 
-.ImgCard:hover {
+.ImgCardddd:hover {
   transform: scale(1.02);
 }
 
 @media only screen and (max-width: 1340px) {
-  .ImgCard {
+  .ImgCardddd {
     width: 500px;
     height: 280px;
     margin: 0 auto;
     overflow: hidden;
   }
-  .ImgCard img {
+  .ImgCardddd img {
     height: 100%;
   }
 }
 
 @media only screen and (max-width: 1020px) {
-  .ImgCard {
+  .ImgCardddd {
     width: 530px;
     height: 280px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .ImgCardddd {
+    width: 480px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .ImgCardddd {
+    width: 380px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .ImgCardddd {
+    width: 280px;
+    height: 180px;
     margin: 0 auto;
     overflow: hidden;
   }
